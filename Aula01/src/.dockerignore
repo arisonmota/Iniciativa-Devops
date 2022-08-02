@@ -1,0 +1,2 @@
+node_modules/
+#ignora o diretorio na hora de construir a imagem
