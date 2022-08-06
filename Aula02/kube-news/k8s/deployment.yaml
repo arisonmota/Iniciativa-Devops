@@ -55,7 +55,7 @@ spec:
     spec:
       containers:
       - name: kubenews
-        image: arisonmota/kube-mews:v2
+        image: arisonmota/kube-news:v2
         env:
         - name: DB_DATABASE
           value: "kubenews"
