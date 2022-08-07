@@ -34,7 +34,7 @@ jobs:
           tags: |
             arisonmota/kube-news:latest
             arisonmota/kube-news:${{github.run_number}}
-  CI:
+  CD:
     runs-on: ubuntu-latest
 
     steps:
