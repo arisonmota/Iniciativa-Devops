@@ -36,6 +36,7 @@ jobs:
             arisonmota/kube-news:${{github.run_number}}
   CD:
     runs-on: ubuntu-latest
+    needs: CI   # para garantir que sCD ser
 
     steps:
       - uses: actions/checkout@v3
