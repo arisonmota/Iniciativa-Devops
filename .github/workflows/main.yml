@@ -28,8 +28,8 @@ jobs:
       - name: Construindo a imagem e enviando para Docker HUB
         uses: docker/build-push-action@v3.1.1
         with:
-          file: ./Aula04/kube-news/src/Dockerfile
-          context: ./Aula04/kube-news/src/
+          file: ./Aula05/kube-news/src/Dockerfile
+          context: ./Aula05/kube-news/src/
           push: true
           tags: |
             arisonmota/kube-news:latest
